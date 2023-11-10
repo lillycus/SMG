@@ -25,7 +25,7 @@ public class MaterialGenerator extends SlimefunItem {
 
     private static final Map<BlockPosition, Integer> generatorProgress = new HashMap<>();
 
-    private int rate = 2;
+    private int rate = 64;
     private ItemStack item;
 
     @ParametersAreNonnullByDefault
